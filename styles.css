@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.hero{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding:0 15vw;
+}
+a{
+    color:#E5E7EB;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;    
+}
+
+
+/*Font:
+  Hero main text: 48px extra-bold #F8FAF8
+  */
+
+ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    display:inline-block;
+}
+li{
+    display:inline-block;
+    margin-left: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+li:hover{
+    transform: scale(120%);
+    
+1
+}
+
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 15vh 0;
+    
+}
+.hero-text{
+max-width:670px;
+max-height:auto;
+}
+
+.hero-img{
+max-width: 700px;
+max-height: auto;
+}
+
+button{
+    padding:8px 47px;
+    background-color: #3882F6;
+    border-radius: 7px;
+    border:none;
+    color: white;
+    font-size:14px;
+    font-weight: bold;
+    cursor:pointer;
+}
+button:hover{
+    transform: scale(103%);
+}
+
+.hero-text h1{
+    font-size:48px;
+    font-weight: 900 ;
+    color: #F9FAF8;
+}
+.hero-text p{
+    font-size: 18px;
+    color:#E5E7EB;
+    line-height: 1.5;
+    padding: 30px 0;
+}
+
+.features{
+    text-align:center;
+    padding-bottom:20vh;
+    color: #1F2937;
+    font-size:18px;
+}
+
+.features-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    
+    
+}
+.content{
+    max-width: 200px;
+    height:auto;
+  }
+
+  .content img{
+      max-width: 200px;
+    height:auto;
+    border: 3px solid;
+    border-color: #3882F6;
+    border-radius:12px;
+  }
+  .content p{
+      padding:5px 0;
+      color:#1F2937;
+      font-size:18px;
+  }
+
+  .features h2{
+      font-size:36px;
+      font-weight:800;
+      padding: 10vh 0;
+  }
+
+
+  .testimonials{
+      background-color: #E5E7EB;
+      color:#1F2937;
+      display: flex;
+      flex-flow: column;
+      padding: 10vh 20vw;
+
+
+  }
+  .testimonials p{
+      font-size:36px;
+      font-weight: lighter;
+      font-style: italic;
+      }
+
+
+      .testimonials .quote-author{
+          font-weight:bold;
+          font-style: normal;
+          font-size:24px;
+          margin-left:auto;
+          padding:32px;
+      }
+
+      .cta{
+          color:white;
+          padding:15vh 15vw;
+      }
+
+      .cta-container{
+          width:70vw;
+          height: 20vh;
+          display:flex;
+          justify-content: space-around;
+          align-items:center;
+          background-color:#3882F6;
+          border-radius: 10px ;
+      }
+
+      .left-cta p{
+          color:#E5E7EB;
+          font-weight: light;
+          padding:8px 0;
+      }
+
+      .left-cta h2{
+        font-size: 30px;
+        }
+
+      .right-cta button{
+          border: 2px solid;
+          border-color: white;
+      }
+
+      .right-cta button:hover{
+          background-color: white;
+          color:#3882F6;
+          transform: scale(103%);
+      }
+
+      footer{
+          text-align:center;
+          padding: 32px;
+          background-color: #1F2937;
+          color:#E5E7EB;
+      }
